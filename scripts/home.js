@@ -25,13 +25,13 @@ window.addEventListener("DOMContentLoaded", function () {
     function gerarItems(array) {
         let innerHTML = array
             .map(function (produto) {
-                return `<div class="item">
+                return `<div class="item" data-id="${produto.id}">
                             <div class="container-img">
                                 <img src="${produto.img}" alt="${produto.nome}">
                             </div>
                             <p class="nome-produto">${produto.nome}</p>
                             <p class="preco-produto">${produto.preco}</p>
-                            <a href="#">Ver produto</a>
+                            <a href="produto.html" class="link-produto">Ver produto</a>
                         </div>`;
             })
             .join("");
@@ -40,4 +40,18 @@ window.addEventListener("DOMContentLoaded", function () {
     }
 
     containerSection.innerHTML = arraySection.join("");
+
+    const linkProdutos = document.querySelectorAll(".link-produto");
+
+    linkProdutos.forEach(testeLink);
 });
+
+function testeLink(link) {
+    link.addEventListener("click", function (e) {
+        // e.preventDefault();
+
+        let id = e.currentTarget.parentElement.dataset.id;
+        console.log(id);
+        localStorage.setItem("id-produto", id);
+    });
+}
