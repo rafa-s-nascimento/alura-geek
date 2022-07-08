@@ -157,7 +157,6 @@ main .container {
 }
 .container-img-principal {
     height: 192px;
-    background-image: url(../img/img4.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -432,10 +431,14 @@ form div.single-input {
     .container-img-principal {
         height: 403px;
         width: calc(50% - 1rem);
-        max-width: 559px;
+        max-width: 557px;
         margin-right: 1rem;
         margin-bottom: 1rem;
     }
+    .container-img-principal img {
+        object-fit: fill;
+    }
+
     .container-text-principal {
         display: flex;
         flex-direction: column;

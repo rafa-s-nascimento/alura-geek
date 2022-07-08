@@ -51,7 +51,7 @@ function testeLink(link) {
         // e.preventDefault();
 
         let id = e.currentTarget.parentElement.dataset.id;
-        console.log(id);
+
         localStorage.setItem("id-produto", id);
     });
 }
