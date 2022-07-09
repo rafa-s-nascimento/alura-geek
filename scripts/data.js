@@ -14,7 +14,7 @@ I just told you! You've killed me! Fry! Quit doing the right thing, you jerk! Mi
 const produtos = [
     {
         id: 01,
-        categoria: "starwars",
+        categoria: "star wars",
         img: "./img/img4.svg",
         nome: "caneca stormtrooper",
         descricao: gerarDescricao(),
@@ -22,7 +22,7 @@ const produtos = [
     },
     {
         id: 02,
-        categoria: "starwars",
+        categoria: "star wars",
         img: "./img/img3.svg",
         nome: "fantasia stormtrooper",
         descricao: gerarDescricao(),
@@ -30,7 +30,7 @@ const produtos = [
     },
     {
         id: 03,
-        categoria: "starwars",
+        categoria: "star wars",
         img: "./img/img2.svg",
         nome: "fantasia kylo ren",
         descricao: gerarDescricao(),
@@ -38,7 +38,7 @@ const produtos = [
     },
     {
         id: 04,
-        categoria: "starwars",
+        categoria: "star wars",
         img: "./img/img7.svg",
         nome: "funko pop darth vader",
         descricao: gerarDescricao(),
@@ -46,7 +46,7 @@ const produtos = [
     },
     {
         id: 05,
-        categoria: "starwars",
+        categoria: "star wars",
         img: "./img/img13.svg",
         nome: "funko pop baby yoda",
         descricao: gerarDescricao(),
@@ -54,7 +54,7 @@ const produtos = [
     },
     {
         id: 06,
-        categoria: "starwars",
+        categoria: "star wars",
         img: "./img/img10.svg",
         nome: "miniatura mestre yoda",
         descricao: gerarDescricao(),
