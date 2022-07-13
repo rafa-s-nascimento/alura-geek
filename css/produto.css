@@ -68,11 +68,7 @@ main .container {
     flex-direction: column;
     justify-content: space-between;
     height: 250px;
-    width: 15%;
-    max-width: calc((1200px - 80px) / 6);
-    min-width: 140px;
-    flex-grow: 1;
-    flex-shrink: 0.1;
+    width: calc(50% - 1rem / 2);
 }
 .container-img {
     height: 69%;
@@ -94,7 +90,6 @@ main .container {
         align-items: center;
     }
     .container-img-principal {
-        height: 157px;
         width: 37%;
         max-width: 254px;
         background-color: var(--black-color);
@@ -111,7 +106,15 @@ main .container {
     .container-items {
         max-height: 250px;
     }
+    .item {
+        width: calc(33.33% - 2rem / 3);
+    }
     /* end main */
+}
+@media screen and (min-width: 668px) {
+    .item {
+        width: calc(25% - 3rem / 4);
+    }
 }
 
 @media screen and (min-width: 1006px) {
@@ -143,5 +146,13 @@ main .container {
         width: 50%;
         justify-content: center;
     }
+    .item {
+        width: calc(20% - 4rem / 5);
+    }
     /* end main */
+}
+@media screen and (min-width: 1100px) {
+    .item {
+        width: calc((100% / 6) - 5rem / 6);
+    }
 }
