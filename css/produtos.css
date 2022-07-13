@@ -41,6 +41,7 @@ main .container {
     margin-bottom: 1.5rem;
 }
 .item {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
