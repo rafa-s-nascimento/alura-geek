@@ -137,9 +137,9 @@ main .container {
         margin-right: 1rem;
         margin-bottom: 1rem;
     }
-    .container-img-principal img {
+    /* .container-img-principal img {
         object-fit: fill;
-    }
+    } */
     .container-text-principal {
         display: flex;
         flex-direction: column;
