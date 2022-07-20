@@ -305,6 +305,7 @@ form div.single-input {
     .logo {
         width: 176px;
         height: 50px;
+        margin-right: 3rem;
     }
 
     .info-contato {
@@ -327,5 +328,11 @@ form div.single-input {
     .container-info-form {
         width: 50%;
         padding: 0;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .logo {
+        margin-right: 4rem;
     }
 }
