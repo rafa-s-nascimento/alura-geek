@@ -84,11 +84,6 @@ main .container {
     .container-item-produtos {
         margin-bottom: 4rem;
     }
-
-    .item-principal {
-        flex-direction: row;
-        align-items: center;
-    }
     .container-img-principal {
         width: 37%;
         max-width: 254px;
@@ -145,14 +140,26 @@ main .container {
         flex-direction: column;
         width: 50%;
         justify-content: center;
+        flex-grow: 1;
     }
     .item {
         width: calc(20% - 4rem / 5);
+    }
+    .item-principal {
+        display: flex;
     }
     /* end main */
 }
 @media screen and (min-width: 1100px) {
     .item {
         width: calc((100% / 6) - 5rem / 6);
+    }
+}
+@media screen and (min-width: 1400px) {
+    .item {
+        height: 300px;
+    }
+    .container-items {
+        max-height: 300px;
     }
 }

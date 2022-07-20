@@ -120,3 +120,11 @@
         width: calc((100% / 6) - 5rem / 6);
     }
 }
+@media screen and (min-width: 1400px) {
+    .item {
+        height: 300px;
+    }
+    .container-item {
+        max-height: 300px;
+    }
+}
