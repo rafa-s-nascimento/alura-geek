@@ -2,10 +2,7 @@
 .hero {
     height: 192px;
     color: var(--white-color);
-    background-image: url(../img/background.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.png") center/cover fixed no-repeat;
     display: flex;
     align-items: flex-end;
     padding-bottom: 1rem;
